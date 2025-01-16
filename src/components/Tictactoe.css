@@ -8,16 +8,19 @@
 .container {
     text-align: center;
     font-family: Arial, sans-serif;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .title {
-    margin-top: 50px;
+    margin-top: 20px;
     color: white;
-    font-size: 50px;
+    font-size: 3vw;
+    max-font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    line-height: 1.2;
 }
 
 .title span {
@@ -26,17 +29,19 @@
 }
 
 .reset {
-    width: 250px;
-    height: 100px;
+    width: 80%;
+    max-width: 250px;
+    height: 50px;
     border: none;
     outline: none;
     cursor: pointer;
     border-radius: 50px;
     background-color: #1f3540;
-    font-size: 26px;
+    font-size: 2vw;
+    max-font-size: 24px;
     color: #26ffcb;
-    margin-top: 25px;
-    margin-bottom: 50px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 30px; */
     transition: background-color 0.3s ease;
 }
 
@@ -48,17 +53,20 @@
 .board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
-    width: 564px;
-    margin: 50px auto;
+    gap: 1vw;
+    width: 80%;
+    max-width: 550px;
+    margin: 20px auto;
 }
 
 .boxes {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 180px;
-    width: 180px;
+    height: 25vw;
+    width: 25vw;
+    max-height: 180px;
+    max-width: 180px;
     background-color: #1f3540;
     border: 4px solid #0f1b21;
     border-radius: 12px;
@@ -72,11 +80,101 @@
 }
 
 .boxes img {
-    height: 80%;
-    width: 80%;
+    height: 70%;
+    width: 70%;
 }
 
 .title img {
-    padding: 20px;
-    height: 60px;
+    padding: 2px;
+    height: 2vw;
+    max-height: 50px;
+    background-color: green;
+}
+
+@media screen and (min-width: 400px) {
+    .title {
+        font-size: 6vw;
+        max-font-size: 40px;
+    }
+    
+
+    .reset {
+        font-size: 4vw;
+        max-font-size: 24px;
+    }
+
+    .title img {
+        height: 4vw;
+        max-height: 50px;
+    }
+    
+}
+
+@media screen and (min-width: 600px) {
+    .title {
+        font-size: 5vw;
+        max-font-size: 40px;
+    }
+
+    .reset {
+        font-size: 4vw;
+        max-font-size: 24px;
+    }
+
+    .title img {
+        height: 6vw;
+        max-height: 50px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .title {
+        font-size: 4vw;
+        max-font-size: 35px;
+    }
+
+    .reset {
+        font-size: 3vw;
+        max-font-size: 20px;
+    }
+
+    .title img {
+        height: 4vw;
+        max-height: 50px;
+    }
+    
+}
+@media screen and (min-width: 1200px) {
+    .title {
+        font-size: 3vw;
+        max-font-size: 40px;
+    }
+
+    .reset {
+        font-size: 2.5vw;
+        max-font-size: 24px;
+    }
+
+    .title img {
+        height: 3vw;
+        max-height: 50px;
+    }
+    
+}
+
+@media screen and (min-width: 1400px) {
+    .title {
+        font-size: 2.5vw;
+        max-font-size: 40px;
+    }
+
+    .reset {
+        font-size: 2vw;
+        max-font-size: 24px;
+    }
+
+    .title img {
+        height: 2.5vw;
+        max-height: 50px;
+    }
+    
 }

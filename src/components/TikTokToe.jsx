@@ -50,9 +50,9 @@ const Tiktaktoe = () => {
     const won = (winner) => {
         setLock(true);
         if (winner === "x") {
-            titleRef.current.innerHTML = `Congratulations: <img src='${cross_icon}' alt='X'> wins!`;
+            titleRef.current.innerHTML = `Congratulations: <img src='${cross_icon}' alt='X'> <span> "Cross" </span>  wins!`;
         } else {
-            titleRef.current.innerHTML = `Congratulations: <img src='${circle_icon}' alt='O'> wins!`;
+            titleRef.current.innerHTML = `Congratulations: <img src='${circle_icon}' alt='O'><span> "Zero" </span>  wins!`;
         }
     };
 
