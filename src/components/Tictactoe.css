@@ -37,10 +37,7 @@
     border-radius: 50px;
     background-color: #1f3540;
     font-size: 2vw;
-
     color: #26ffcb;
-    /* margin-top: 20px; */
-    /* margin-bottom: 30px; */
     transition: background-color 0.3s ease;
 }
 
