@@ -15,7 +15,6 @@
     margin-top: 20px;
     color: white;
     font-size: 3vw;
-    max-font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +37,7 @@
     border-radius: 50px;
     background-color: #1f3540;
     font-size: 2vw;
-    max-font-size: 24px;
+
     color: #26ffcb;
     /* margin-top: 20px; */
     /* margin-bottom: 30px; */
@@ -94,13 +93,13 @@
 @media screen and (min-width: 400px) {
     .title {
         font-size: 6vw;
-        max-font-size: 40px;
+    
     }
     
 
     .reset {
         font-size: 4vw;
-        max-font-size: 24px;
+      
     }
 
     .title img {
@@ -113,12 +112,12 @@
 @media screen and (min-width: 600px) {
     .title {
         font-size: 5vw;
-        max-font-size: 40px;
+   
     }
 
     .reset {
         font-size: 4vw;
-        max-font-size: 24px;
+       
     }
 
     .title img {
@@ -129,12 +128,12 @@
 @media screen and (min-width: 1000px) {
     .title {
         font-size: 4vw;
-        max-font-size: 35px;
+     
     }
 
     .reset {
         font-size: 3vw;
-        max-font-size: 20px;
+    
     }
 
     .title img {
@@ -146,12 +145,12 @@
 @media screen and (min-width: 1200px) {
     .title {
         font-size: 3vw;
-        max-font-size: 40px;
+        
     }
 
     .reset {
         font-size: 2.5vw;
-        max-font-size: 24px;
+       
     }
 
     .title img {
@@ -164,12 +163,12 @@
 @media screen and (min-width: 1400px) {
     .title {
         font-size: 2.5vw;
-        max-font-size: 40px;
+      
     }
 
     .reset {
         font-size: 2vw;
-        max-font-size: 24px;
+       
     }
 
     .title img {
